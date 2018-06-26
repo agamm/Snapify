@@ -1,0 +1,154 @@
+
+body {
+  color: #6c6c6c;
+}
+
+.button-wrapper {
+  text-align:center;
+  margin: 0 auto;
+}
+
+.checkbox-label {
+	font-size: 14px;
+}
+
+.hidden {
+  display: none;
+}
+
+.button-backup {
+  margin: 0 auto;
+  width: 17em;
+  text-align: center;
+  background: #8fd254;
+  border-color: #4b910d;
+  -webkit-box-shadow: inset 0 1px 0 rgba(197, 254, 190, 0.6);
+  box-shadow: inset 0 1px 0 rgba(197, 254, 190, 0.6);
+  color: #fff;
+  font-size: 18px;
+  line-height: 30px;
+  height: 37px;
+  padding: 0 20px 1px;
+  cursor: pointer;
+  border-width: 1px;
+  border-style: solid;
+  -webkit-appearance: none;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  white-space: nowrap;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  outline:none;
+}
+.button-stream:hover {
+  background: #8ed94b;
+}
+.button-stream:active {
+  background: #5fc12c;
+  border-color: #0e8200;
+  webkit-box-shadow: inset 0 1px 0 rgba(0,0,0,.1);
+  box-shadow: inset 0 1px 0 rgba(0,0,0,.1);
+  vertical-align: top;
+}
+
+.button-installer {
+   margin-top: 5px;
+   background:none!important;
+   color:inherit;
+   border:none; 
+   padding:0!important;
+   font: inherit;
+   /*border is optional*/
+   border-bottom:1px solid #444; 
+   cursor: pointer;
+}
+.button-export:hover {
+  background: #8ed94b;
+}
+.button-export:active {
+  background: #5fc12c;
+  border-color: #0e8200;
+  webkit-box-shadow: inset 0 1px 0 rgba(0,0,0,.1);
+  box-shadow: inset 0 1px 0 rgba(0,0,0,.1);
+  vertical-align: top;
+}
+.notification-download {
+  display:none;
+  background-color: orange;
+  border-radius: 5px;
+  padding: 4px;
+  margin: 5px;
+}
+.loader {
+    display: none;
+    height: 32px;
+    top: 9px;
+    left: -7px;
+    position: relative;
+    margin-left: -32px;
+}
+
+.progress-wrapper {
+    width: 308px;
+    margin: 1em auto;
+    display: none;
+}
+
+.progress-status {
+    position: relative;
+    top: 18px;
+    font-size: 11px;
+}
+
+.progress {
+  padding: 2px;
+  background: rgba(0, 0, 0, 0.14);
+  border-radius: 3px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.12);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.12);
+}
+
+.progress-bar {
+  height: 16px;
+  border-radius: 2px;
+  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.05));
+  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.05));
+  background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.05));
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.05));
+  -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.2), inset 0 1px rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.2), inset 0 1px rgba(255, 255, 255, 0.2);
+  
+  /* Transition */
+  -webkit-transition: 0.3s linear;
+  -moz-transition: 0.3s linear;
+  -o-transition: 0.3s linear;
+  transition: 0.3s linear;
+  -webkit-transition-property: width, background-color;
+  -moz-transition-property: width, background-color;
+  -o-transition-property: width, background-color;
+  transition-property: width, background-color;
+}
+
+.progress .progress-bar {
+  width: 0%;
+  background-color: #FE2E2E;
+}
+
+#advanced-wrap {
+  width: 510px;
+  border-radius: 3px;
+  padding: 5px;
+  background-color: #f5f4f4;
+}
+#advanced-options {
+  cursor: pointer;
+  width: 150px;
+  border-radius: 3px;
+  background-color: #e3e3e3;
+  padding: 5px 3px 4px 3px;
+}
+#advanced-contents {
+  margin: 1em auto;
+  text-align: center;
+}

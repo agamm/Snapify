@@ -1,0 +1,184 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Snapify - Documentation</title>
+  <link rel="alternate" type="application/rss+xml" title="frittt.com" href="feed/index.html">
+  <link href="http://fonts.googleapis.com/css?family=Raleway:700,300" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/prettify.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav>
+      <div class="pull-left">
+        <h1>
+          <a href="javascript:"><img src="img/icon.png" alt="Snapify Icon" /> <span>Snapify</span></a>
+        </h1>
+      </div>
+
+      <!--<div class="pull-right">
+        <a href="http://frittt.com/free-documentation-html-template-docweb" target="_blank" class="btn btn-download"><img src="img/download.png" width="25" alt="Download Free Documentation Template" /> Download Now</a>
+      </div>-->
+    </nav>
+    <header>
+      <div class="container">
+        <h2 class="lone-header">Snapify - Documentation</h2>
+      </div>
+    </header>
+    <section>
+      <div class="container">
+        <ul class="docs-nav">
+          <li><strong>Getting Started</strong></li>
+          <li><a href="#thanks" class="cc-active">Thanks!</a></li>
+          <li><a href="#whatwho" class="cc-active">What is Snapify and how does it work?</a></li>
+          <li><a href="#features" class="cc-active">Features</a></li>
+          <li><a href="#whofor" class="cc-active">Who is it for?</a></li>
+          <li><a href="#installer" class="cc-active">The Installer File</a></li>
+          <li class="separator"></li>
+          <li><strong>Usage</strong></li>
+          <li><a href="#requierments" class="cc-active">Requirements</a></li>
+          <li><a href="#install" class="cc-active">Install</a></li>
+          <li><a href="#extra_support" class="cc-active">Extra Support</a></li>
+          <li class="separator"></li>
+          <li><strong>Common Questions and Problems</strong></li>
+          <li><a href="#multisite_support" class="cc-active">Does it support multisite?</a></li>
+          <li><a href="#debug_not_found" class="cc-active">Debug file not found!</a></li>
+          <li><a href="#error_mysql" class="cc-active">Error connecting to MySQL server: ...</a></li>
+          <li><a href="#bad_characterset" class="cc-active">Bad character set detected...</a></li>
+          <li><a href="#database_already_created" class="cc-active">Database name supplied is already created...</a></li>
+          <li><a href="#cant_create_db" class="cc-active">Could not create database...</a></li>
+          <li><a href="#error_selecting_database" class="cc-active">Error selecting MySQL database: ...</a></li>
+          <li><a href="#halting_import" class="cc-active">Halting import, error performing query ...</a></li>
+          <li><a href="#error_performing_query" class="cc-active">Error performing query ...</a></li>
+          <li><a href="#current_directory_not_writable" class="cc-active">The current directory isn't writable ...</a></li>
+          <li><a href="#wordfence" class="cc-active">Failed opening required ... wordfence-waf.php ...</a></li>
+          <li><a href="#backup_methods" class="cc-active">What are all these "Backup Methods"?</a></li>
+        </ul>
+        <div class="docs-content">
+          <h2> Getting Started</h2>
+          <h3 id="thanks"> Thanks for purchasing Snapify!</h3>
+
+          <p> Here, we've put together a comprehensive documentation to help you out using snapify - and making your life easier.</p>
+
+          <h3 id="whatwho"> What is Snapify and Who is it for?</h3>
+          <p>Snapify is a WordPress plugin that lets you backup and move your entire WordPress site to another server easily.</p>
+          <p>This is done by packing your whole site (themes, plugins, settings, content, etc...) into a setup wizard that
+            you can just throw onto your new server and install.</p>
+          <p>On your new server you just access the PHP installer and it will automatically restore all of your website - you
+            won't even need to enter the new URL!
+          </p>
+          <p>Snapify is built from 2 separate parts, one is the WordPress plugin and one which is the installer.</p>          
+          <h3 id="installer"> The Installer File</h3>
+          <p>The installer is a script which is supposed to restore your WordPress site after backupping with the Snapify plugin.</p>
+          <p>The installer is not part of the Snapify WordPress plugin - it is only used as a file for the download of the backup so you could restore that backup.</p>
+          <p> Which means it does not follow the WordPress standards - 
+            it has to include jquery by itself because when it is used WordPress is not installed yet. 
+          </p>
+          <p>This file is not part of the WordPress plugin, but is used only after backupping, to restore your site.
+          </p>
+          
+          <h3 id="features"> Features</h3>
+          <ul>
+            <li><strong>Backup every aspect</strong> of your WordPress site (database, plugins, content, themes and settings)</li>
+            <li><strong>Does'nt require WordPress</strong> to be installed first - uses Snapify's install script.</li>
+            <li><strong>1 Click export</strong> no FTP required</li>
+            <li>Download backup as a <strong>zip</strong> file.</li>
+            <li><strong>Buy once</strong> - use unlimited times</li>
+            <li><strong>Auto detect</strong> new server settings upon install</li>
+            <li>No cloud required</li>
+            <li><strong>Optimized</strong> for low end machines</li>
+            <li>Restore site in <strong>one click</strong></li>
+            <li>Handles <strong>.htaccess</strong> correctly</li>
+            <li>Handles <strong>Unicode</strong></li>
+            <li>Has the ability to restore a website via the plugin.</li>
+            <li>Streaming the backup of your website.</li>
+          </ul>
+          <h3 id="whofor"> Who is it for?</h3>
+          <p> Snapify is great for:</p>
+          <ul>
+            <li>regular site admins, who need to backup their site or move it to a new hosting provider.</li>
+            <li>site developers, when you create a local demo of the site you can easily move it to production with Snapify.</li>
+          </ul>
+          <hr>
+          <h2> Usage </h2>
+
+          <h3 id="requierments"> Requirements</h3>
+          <ul>
+            <li>PHP 5.2.4+ (mbstring extension or zip extension)</li>
+            <li>MySQL 5.0+</li>
+            <li>WordPress 3.0 +</li>
+          </ul>
+          <b> Known Issues </b>
+          <ul>
+          <li>Does not handle multi-site as one website yet.</li>
+          <li>Does not work with cloudflare at the moment. </li>
+          <li>Does not work with hostings that have a low php execution time that can’t be changed </li>
+          <li>Please contact us before buying if you think you have one of these problems</li>
+          </ul>
+
+          <h3 id="install"> Install</h3>
+          <p>To install Snapify, open the WordPress admin panel <a href="https://codex.WordPress.org/Managing_Plugins#Manual_Plugin_Installation">upload, install and activate</a> 
+          the Snapify Plugin.</p> 
+          <p>Then you can click on: <strong>Tools</strong>-><strong>Snapify</strong> there press <strong>Backup</strong>. </p>
+          <p>Then you will get a download
+            prompt of a zip file. <u>This is your whole site's' backup</u>.</p>
+          <p> You will have to use the installer download link to download the installer, without that file you can't install the backup on your new server </p>
+          <p>To move your site on a new location upload the backup zip file and extract it on your new server. Make sure that
+            the files have write and execute permissions.</p>
+          <p>Then browse to the <strong>snapify.php</strong> file and press Install. You need to enter your new MySQL settings (DB name, user,
+            pass and host), after that it will install and direct you to your site - and you're all done!</p>
+
+          <p class="important">
+			If you prefer, you can check our <a href="../Snapify-Backup.mp4">Backup video</a><br />
+			You may also want to check our <a href="../Snapify-Install-Restore.mp4">Install/Restore video</a>
+		</p>
+
+          <h3 id="extra_support"> Extra Support</h3>
+          <p>If this documentation didn't help you, you are welcome to get support at:
+            <a href="https://codecanyon.net/user/simple360#contact">
+              CodeCanyon - Simple360 
+            </a>
+          </p>
+
+          <hr>
+          <h2 id="common_qnp" style="background-color: #b2ffb2;border-radius: 10px;padding: 15px;"> Common Questions and Problems </h2>
+          <i>Make sure you are using the latest version of snapify before contacting support.</i>
+          <h3 id="multisite_support"> Does it support multisite? </h3>
+          <p>Not currently, but please tell us if this is a feature you need. </p>
+          <h3 id="debug_not_found"> Debug file not found! </h3>
+          <p>Did you antecedently delete the debug log file? if not, Please <a href="#extra_support">contact us</a> with your debug log. </p>
+          <h3 id="error_mysql"> Error connecting to MySQL server: ... </h3>
+          <p>Please check that your credentials are correct and that the supplied settings in the installer for MySQL are correct.</p>
+          <h3 id="bad_characterset"> Bad character set detected... </h3>
+          <p>This may be resolved if you use the "Force-UTF8" checkbox in the Snapify plugin (when backupping) and try again.</p>
+          <h3 id="database_already_created"> Database name supplied is already created... </h3>
+          <p>This means that MySQL already has a database with the name you supplied. You can override it by checking the "Override Database" checkbox when installing. Or, delete the database manually.</p>
+          <h3 id="cant_create_db"> Could not create database... </h3>
+          <p>This means that Snapify can't create a new database either because you didn't use the root MySQL user or because you didn't grant the user the ability to create a new database. If you can't grant that permission, then you can create the database yourself and click the "Override Database" checkbox when installing.</p>
+          <h3 id="error_selecting_database"> Error selecting MySQL database: ... </h3>
+          <p>Double check that your user has the required permissions for the supplied database name.</p>
+          <h3 id="halting_import"> Halting import, error performing query ... </h3>
+          <p>Make sure that you didn't edit the snapify.sql file, because this means that it has SQL errors, please <a href="#extra_support">contact us</a> with your debug log, so we could help you out.</p>
+          <h3 id="error_performing_query"> Error performing query ... </h3>
+          <p>Please <a href="#extra_support">contact us</a> with your debug log.</p>
+          <h3 id="current_directory_not_writable"> The current directory isn't writable ... </h3>
+          <p>Check that the Snapify direcotry has write permissions for the web user (usually www-data). If not, you can run: [chmod -R 777 ./] in the directory, keep in mind that this isn't the best security practice, so change it after snapify finishes. </p>
+          <h3 id="wordfence"> Failed opening required ... wordfence-waf.php ... </h3>
+          <p> This means that your Wordfence WAF is blocking the restore of your website because it uses bad paths. Please disable it and try to backup again without it.</p>
+          <h3 id="backup_methods"> What are all these "Backup Methods"? </h3>
+          <p><u>Compressed Download</u> - will compress your files on the server and then initiate a backup process</p><p><u>Stream Download</u> - will compress your files on the fly and start the download imminently (good for large sites, that don't have space)</p><p><u>Database Backup Only</u> - will not include all of your files, but will include your database contents. Then you can add your files yourself (via ftp/scp download) and add them to the snapify.zip, used mainly in debug situations.</p>
+        </div>
+        <script src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/prettify/prettify.js"></script>
+        <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js?lang=css&skin=sunburst"></script>
+        <script src="js/layout.js"></script>
+</body>
+
+</html>
