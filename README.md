@@ -1,6 +1,7 @@
 # Snapify
 
 ![Snapify Header](https://raw.githubusercontent.com/funerr/Snapify/master/readme-images/header.jpg)
+
 **Created By [@amitgafny660](https://github.com/amitgafny6600) & [@funerr](https://github.com/funerr)**
 
 Snapify lets you finally move your WordPress website easily
@@ -14,26 +15,27 @@ We felt how bad it was to move WordPress sites, configuring unnecessary extract 
 
 ### Usage:
 1) Install the Snapify plugin on your WordPress Site 
+
     \->    Zip the plugin folder and upload it as a regular WordPress plugin.
 2) Export! 
 3) Upload Exported files to new server and click install! 
 4) Done! 
 
 ### Features:
-[x] - Backup every aspect of your WordPress site (database, plugins, content, themes and settings) 
-[x] - Does not require WordPress to be installed first – uses Snapify install script. 
-[x] - 1 Click export no FTP required
-[x] - Download backup as a zip file.
-[x] - Full Documentation & Video Demonstration included.
-[x] - Auto detect new server settings upon install
-[x] - No cloud required
-[x] - Compatible with old PHP & MySQL versions
-[x] - Optimized for low end machines
-[x] - Restore site in one click
-[x] - Handles .htaccess correctly
-[x] - Handles Unicode
-[x] - Stream Download – Backup’s on the fly without using space
-[x] - Windows OS support
+- Backup every aspect of your WordPress site (database, plugins, content, themes and settings) 
+- Does not require WordPress to be installed first – uses Snapify install script. 
+- 1 Click export no FTP required
+- Download backup as a zip file.
+- Full Documentation & Video Demonstration included.
+- Auto detect new server settings upon install
+- No cloud required
+- Compatible with old PHP & MySQL versions
+- Optimized for low end machines
+- Restore site in one click
+- Handles .htaccess correctly
+- Handles Unicode
+- Stream Download – Backup’s on the fly without using space
+- Windows OS support
 
 ### Testimonials
 ![Testimonials](https://raw.githubusercontent.com/funerr/Snapify/master/readme-images/testimonials.png)
