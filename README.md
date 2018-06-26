@@ -97,4 +97,3 @@ When you want to restore all that, snapify does it automatically.
 [![Introduction](http://img.youtube.com/vi/T2VS4nM-jho/0.jpg)](http://www.youtube.com/watch?v=T2VS4nM-jho)
 [![Backup Phase](http://img.youtube.com/vi/HPmE0CEVC60/0.jpg)](http://www.youtube.com/watch?v=HPmE0CEVC60)
 [![Installer Restore Phase](http://img.youtube.com/vi/KudGJ7qhaRs/0.jpg)](http://www.youtube.com/watch?v=KudGJ7qhaRs)
-https://www.youtube.com/watch?v=T2VS4nM-jho
