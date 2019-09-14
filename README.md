@@ -4,7 +4,7 @@
 
 **Created By [@amitgafny660](https://github.com/amitgafny6600) & [@funerr](https://github.com/funerr)**
 
-Snapify lets you finally move your WordPress website easily
+Snapify lets you finally move your WordPress website easily.
 
 ### Why?
 We felt how bad it was to move WordPress sites, configuring unnecessary extract options, unpacking, replacing URLs and tweaking files – We didn’t find any truly simple and automatic solution out there, so we decided to create this easy to use product. We hope you will find it useful like we did. For more information you can visit us at: https://snapifybackup.com
